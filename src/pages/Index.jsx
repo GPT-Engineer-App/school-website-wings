@@ -6,7 +6,7 @@ const WingCard = ({ title, icon, description }) => {
   const bg = useColorModeValue("green.500", "maroon.500");
   return (
     <VStack p={5} spacing={3} boxShadow="md" borderRadius="md" bg={bg} _hover={{ boxShadow: "lg" }}>
-      <Box fontSize="3xl" color="teal.400">
+      <Box fontSize="3xl" color="white.500">
         {icon}
       </Box>
       <Heading size="md">{title}</Heading>
