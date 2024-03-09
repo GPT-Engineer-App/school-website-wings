@@ -21,9 +21,12 @@ const WingCard = ({ title, icon, description }) => {
 const Index = () => {
   return (
     <Container maxW="container.xl" py={10}>
-      <Center mb={10}>
+      <Center my={6}>
+        <Image src="/school-logo.png" alt="School Logo" boxSize="100px" />
+      </Center>
+      <Center mb={6}>
         <VStack spacing={2}>
-          <Heading as="h1" size="2xl">
+          <Heading as="h1" size="xl">
             Welcome to Our School
           </Heading>
           <Text fontSize="lg">A Place for Every Learner</Text>
