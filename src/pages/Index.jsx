@@ -3,7 +3,7 @@ import { Box, Container, Heading, SimpleGrid, Text, Image, Center, VStack, HStac
 import { FaMale, FaFemale, FaChild, FaBaby } from "react-icons/fa";
 
 const WingCard = ({ title, icon, description }) => {
-  const bg = useColorModeValue("gray.100", "gray.700");
+  const bg = useColorModeValue("green.500", "maroon.500");
   return (
     <VStack p={5} spacing={3} boxShadow="md" borderRadius="md" bg={bg} _hover={{ boxShadow: "lg" }}>
       <Box fontSize="3xl" color="teal.400">
@@ -11,7 +11,7 @@ const WingCard = ({ title, icon, description }) => {
       </Box>
       <Heading size="md">{title}</Heading>
       <Text textAlign="center">{description}</Text>
-      <Button colorScheme="teal" variant="outline">
+      <Button colorScheme="maroon" variant="outline">
         Learn More
       </Button>
     </VStack>
